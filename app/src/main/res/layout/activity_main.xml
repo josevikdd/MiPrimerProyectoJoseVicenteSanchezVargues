@@ -124,6 +124,7 @@
             android:background="@color/black">
 
             <TextView
+                android:id="@+id/celebratingText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"

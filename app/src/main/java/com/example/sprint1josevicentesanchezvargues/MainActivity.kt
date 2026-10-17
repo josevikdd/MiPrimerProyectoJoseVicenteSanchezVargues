@@ -1,7 +1,11 @@
 package com.example.sprint1josevicentesanchezvargues
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.style.ForegroundColorSpan
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
@@ -70,6 +74,26 @@ class MainActivity : AppCompatActivity() {
                 "Información guardada.",
                 Toast.LENGTH_SHORT
             ).show()
+        }
+
+        val celebratingText = findViewById<TextView>(R.id.celebratingText)
+
+        celebratingText.setOnClickListener {
+            val texto = "Celebrating 5 Years of Jetpack Compose!"
+            val spannable = SpannableString(texto)
+
+            val inicio = texto.indexOf("5")
+
+            if (inicio != -1) {
+                spannable.setSpan(
+                    ForegroundColorSpan(Color.RED),
+                    inicio,
+                    inicio + 1,
+                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+                )
+            }
+
+            celebratingText.text = spannable
         }
     }
 }
