@@ -1,4 +1,4 @@
-package com.example.sprint1josevicentesanchezvargues
+/*package com.example.sprint1josevicentesanchezvargues
 
 import kotlin.random.Random
 
@@ -60,4 +60,4 @@ class reto2 {
             else -> println("There is not such button")
         }
     }
-}
+}*/
