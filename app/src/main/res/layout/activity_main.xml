@@ -230,6 +230,7 @@
             android:entries="@array/cursos"/>
 
         <TextView
+            android:id="@+id/seekBarProgress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/nivel"
@@ -239,6 +240,7 @@
             android:layout_marginTop="20dp"/>
 
         <SeekBar
+            android:id="@+id/seekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:progress="50"/>
