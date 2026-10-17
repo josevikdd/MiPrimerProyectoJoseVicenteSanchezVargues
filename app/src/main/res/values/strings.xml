@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sprint1JoseVicenteSanchezVargues</string>
+    <string name="ejemplo">Ejemplo de componentes Android</string>
+    <string name="componentes">Componentes para mostrar información</string>
+    <string name="muestra">Este texto se muestra mediante un TextView.</string>
+    <string name="progreso">Progreso: 50%</string>
+    <string name="video">VideoView</string>
+    <string name="web">WebView</string>
+    <string name="dev">Developers</string>
+    <string name="celebrating">Celebrating 5 Years of Jetpack Compose!</string>
+    <string name="entrada">Componentes de entrada e interacción</string>
+    <string name="hint">Introduce tu nombre</string>
+    <string name="tecnologias">Selecciona tecnologías:</string>
+    <string name="modalidad">Selecciona una modalidad:</string>
+    <string name="curso">Selecciona un curso:</string>
+    <string name="nivel">Nivel seleccionado: 50</string>
+    <string name="resultado">Aquí aparecerá el resultado.</string>
+    <string name="android">Android</string>
+    <string name="react">React</string>
+    <string name="flutter">Flutter</string>
+    <string name="presencial">Presencial</string>
+    <string name="online">Online</string>
+    <string name="mixta">Mixta</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string-array name="cursos">
+        <item>1º. DAM</item>
+        <item>2º. DAM</item>
+    </string-array>
+    <string name="guardar">Guardar información</string>
+</resources>
